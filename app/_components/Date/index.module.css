@@ -1,0 +1,15 @@
+.tag {
+  padding: 4px 12px;
+  border-radius: var(--border-radius);
+  background-color: var(--color-bg-sub);
+  font-size: 1rem;
+  white-space: nowrap;
+}
+
+.date {
+  display: flex;
+  margin: 0.8rem 0;
+  font-size: 1rem;
+  gap: 8px;
+  align-items: center;
+}
