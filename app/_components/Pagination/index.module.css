@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  margin-top: 24px;
+  padding: 24px;
+  justify-content: center;
+  align-items: center;
+}
+
+.list {
+  margin: 0 4px;
+}
+
+.item {
+  display: flex;
+  width: 36px;
+  height: 36px;
+  border-radius: var(--border-radius);
+  justify-content: center;
+  align-items: center;
+}
+
+.current {
+  background-color: var(--color-button-primary);
+  color: var(--color-text-unpainted);
+}
